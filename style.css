@@ -1,0 +1,102 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Acme|Comfortaa|Noto+Sans+TC');
+
+html {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 18px;
+}
+
+.logo {
+    height: 100vh;
+    background-image: url("bg_pic.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.logo .helper {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-logo {
+    max-height: 100vh;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.icons-content {
+    /*height: 60px;*/
+    /*background: #ccc;*/
+}
+
+.theater-name {
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.color-links {
+    display: inline-block;
+}
+
+.half-row {
+    display: inline-block;
+    width: calc(50% - 3px);
+}
+
+.social-links {
+    text-align: right;
+}
+
+.icons {
+    width: 40px;
+    padding: 10px 5px;
+}
+
+.about-us {
+    line-height: 36px;
+}
+
+.about-us p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.content {
+    margin: auto;
+    max-width: calc(100% - 200px);
+    margin-top: 10px;
+}
+
+strong {
+    font-weight: 800;
+}
+
+.links-to-main-site {
+    /*background: #ccc;*/
+}
+
+.doika {
+    height: 205px;
+    text-align: center;
+}
+
+.links-name {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000;
+}
+
+.links .half-row {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.banks {
+    text-align: center;
+    padding-top: 55px;
+}
+
