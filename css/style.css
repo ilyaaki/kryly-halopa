@@ -1,0 +1,112 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Montserrat');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    height: 100vh;
+    background-image: url("../bg_pic.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.logo .helper {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-logo {
+    max-height: 100vh;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.theater-name {
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.color-links {
+    display: inline-block;
+    outline-style: none;
+}
+
+.half-row {
+    display: inline-block;
+    width: calc(50% - 3px);
+}
+
+.social-links {
+    text-align: right;
+}
+
+.icons {
+    width: 40px;
+    padding: 10px 5px;
+}
+
+.about-us {
+    line-height: 36px;
+}
+
+.about-us p {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.content {
+    margin: auto;
+    max-width: calc(100% - 200px);
+    margin-top: 10px;
+}
+
+.bold-text {
+    font-weight: 800;
+}
+
+.doika {
+    height: 205px;
+    text-align: center;
+}
+
+.links-name {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #cc0033;
+}
+
+.links-name:hover {
+    color: #fe0036;
+    text-decoration: underline;
+}
+
+.links .half-row {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.statute-image {
+    width: 49px;
+    vertical-align: middle;
+}
+
+.banks {
+    text-align: center;
+    padding-top: 55px;
+}
+
+.container div{
+    display: inline-block;
+    width: calc( 33% - 20px);
+    min-width: 400px;
+    vertical-align: top;
+    padding: 10px;
+}
+
